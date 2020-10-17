@@ -1,0 +1,79 @@
+/* SITE TYPOGRAPHY */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+@font-face {
+    font-family: "Kollektif-Regular";
+    src:  url('../../fonts/kollektif/regular/Kollektif.woff2') format('woff2'),
+          url('../../fonts/kollektif/regular/Kollektif.woff') format('woff'),
+          url('../../fonts/kollektif/regular/Kollektif.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Kollektif-Bold";
+    src:  url('../../fonts/kollektif/bold/Kollektif-Bold.woff2') format('woff2'),
+          url('../../fonts/kollektif/bold/Kollektif-Bold.woff') format('woff'),
+          url('../../fonts/kollektif/bold/Kollektif-Bold.ttf') format('truetype');
+}
+
+.f-kollektif-reg{
+    font-family: "Kollektif-Regular", sans-serif;
+}
+
+.f-kollektif-bold{
+    font-family: "Kollektif-Bold", sans-serif;
+}
+
+
+
+/* TEXT CLASSES */
+
+.text-bold{
+    font-weight: 700;
+}
+.text-light{
+font-weight: 300;
+}
+.text-regular{
+font-weight: 400;
+}
+.fs-14{
+font-size: 14px;
+}
+.fs-16{
+font-size: 16px;
+}
+.fs-18{
+font-size: 18px;
+}
+.fs-20{
+font-size: 20px;
+}
+
+
+/* TAG'S BEHAVIOUR */
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+    
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: inherit;
+    margin: 0;
+}
+ul,ol{
+    margin: 20px 0px;
+    padding:0px;
+}
+li{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: inherit;
+}

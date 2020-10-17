@@ -1,0 +1,48 @@
+/* 
+COLOR PALETTE
+
+Dark-grey:#333332;
+Grey:#4d4d48;
+Light-grey:#eeedee;
+Light-orange:#f68b1f;
+Dark-orange:#F15824;
+
+*/
+
+
+/* TEXT COLOR CLASSES */
+.text-dark-grey{
+    color:#333332;
+}
+.text-grey{
+    color:#4d4d48;
+}
+.text-light-grey{
+    color:#eeedee;
+}
+.text-light-orange{
+    color:#f68b1f;
+}
+.text-dark-orange{
+    color:#F15824;
+}
+
+
+/* BACKGROUND COLOR CLASSES */
+.bk-dark-grey{
+    background-color:#333332;
+}
+.bk-grey{
+    background-color:#4d4d48;
+}
+.bk-light-grey{
+    background-color:#eeedee;
+}
+.bk-light-orange{
+    background-color:#f68b1f;
+}
+.bk-dark-orange{
+    background-color:#F15824;
+}
+
+
